@@ -1,0 +1,9 @@
+---
+applications:
+- name: springbootConcourseApp
+  path: ../../s3-stored-jar/gs-mysql-data-0.10.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1G
+  env:
+   spring_application_name: springboot-concourse
+
