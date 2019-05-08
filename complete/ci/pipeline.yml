@@ -2,7 +2,7 @@ resources:
 - name: source-code-from-github
   type: git
   source:
-    uri: https://github.com/spring-guides/gs-accessing-data-mysql.git  
+    uri: https://github.com/iftiali/gs-accessing-data-mysql.git  
     branch: master
 
 - name: s3-stored-jar
